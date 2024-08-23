@@ -10,27 +10,63 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        setConfig()
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let vc = ViewController()
+        
+        window?.rootViewController = vc
+        
+        window?.makeKeyAndVisible()
+        
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+    
+    func setConfig() {
+        
+        startNetStatus()
+        getDefaulHeight()
     }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+    
+    func startNetStatus() {
+        
+        NetStatusManager.manager.startNet { status in
+            
+            
+        }
+            
     }
-
+    
+    func getDefaulHeight() {
+        
+        if #available(iOS 13.0, *) {
+            
+            let window = UIApplication.shared.windows.first
+            let topPadding = window?.safeAreaInsets.top ?? 0
+            statusBarHeight = topPadding > 0 ? topPadding:20
+            navHeight = navDefaultHeight + statusBarHeight
+            navCenterY = 22 + statusBarHeight
+        }else {
+            
+            statusBarHeight = UIApplication.shared.statusBarFrame.size.height
+            navHeight = navDefaultHeight + statusBarHeight
+            navCenterY = 22 + statusBarHeight
+        }
+        
+        if #available(iOS 11.0, *) {
+            
+            safeHeight = UIApplication.shared.delegate?.window??.safeAreaInsets.bottom ?? 0
+        
+        }else {
+            
+            safeHeight = 0
+        }
+    }
 
 }
 

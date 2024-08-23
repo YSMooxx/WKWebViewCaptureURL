@@ -8,22 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		121E70582C76CBAF0053ACCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E70572C76CBAF0053ACCF /* AppDelegate.swift */; };
-		121E705A2C76CBAF0053ACCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E70592C76CBAF0053ACCF /* SceneDelegate.swift */; };
 		121E705C2C76CBAF0053ACCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E705B2C76CBAF0053ACCF /* ViewController.swift */; };
 		121E705F2C76CBAF0053ACCF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 121E705E2C76CBAF0053ACCF /* Base */; };
 		121E70612C76CBB20053ACCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121E70602C76CBB20053ACCF /* Assets.xcassets */; };
 		121E70642C76CBB20053ACCF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 121E70632C76CBB20053ACCF /* Base */; };
+		121E706D2C76CD520053ACCF /* CapturePVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E706C2C76CD520053ACCF /* CapturePVView.swift */; };
+		121E70702C76CDB80053ACCF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E706F2C76CDB80053ACCF /* UIView+Extension.swift */; };
+		121E70762C76CFE30053ACCF /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E70752C76CFE30053ACCF /* Common.swift */; };
+		121E70782C76CFF70053ACCF /* Value+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E70772C76CFF70053ACCF /* Value+Extension.swift */; };
+		121E707A2C76D00B0053ACCF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E70792C76D00B0053ACCF /* UIColor+Extension.swift */; };
+		121E707C2C76D3B70053ACCF /* NetStatusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E707B2C76D3B70053ACCF /* NetStatusManager.swift */; };
+		121E707F2C7715C40053ACCF /* IVResultTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E707E2C7715C40053ACCF /* IVResultTipView.swift */; };
+		121E70812C7718C60053ACCF /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E70802C7718C60053ACCF /* String+Extension.swift */; };
+		121E70832C772F050053ACCF /* ShouImageResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E70822C772F050053ACCF /* ShouImageResultViewController.swift */; };
+		121E70852C7736920053ACCF /* ShouVideoResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E70842C7736920053ACCF /* ShouVideoResultViewController.swift */; };
+		121E70872C77376B0053ACCF /* CommonFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E70862C77376B0053ACCF /* CommonFunc.swift */; };
+		DEC8F77067A704C10CC346A4 /* Pods_CapturePV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D314875949222BEA5F8D39DC /* Pods_CapturePV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		121E70542C76CBAF0053ACCF /* CapturePV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapturePV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		121E70572C76CBAF0053ACCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		121E70592C76CBAF0053ACCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		121E705B2C76CBAF0053ACCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		121E705E2C76CBAF0053ACCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		121E70602C76CBB20053ACCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		121E70632C76CBB20053ACCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		121E70652C76CBB20053ACCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121E706C2C76CD520053ACCF /* CapturePVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturePVView.swift; sourceTree = "<group>"; };
+		121E706F2C76CDB80053ACCF /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		121E70752C76CFE30053ACCF /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		121E70772C76CFF70053ACCF /* Value+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Value+Extension.swift"; sourceTree = "<group>"; };
+		121E70792C76D00B0053ACCF /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		121E707B2C76D3B70053ACCF /* NetStatusManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetStatusManager.swift; sourceTree = "<group>"; };
+		121E707E2C7715C40053ACCF /* IVResultTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVResultTipView.swift; sourceTree = "<group>"; };
+		121E70802C7718C60053ACCF /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		121E70822C772F050053ACCF /* ShouImageResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShouImageResultViewController.swift; sourceTree = "<group>"; };
+		121E70842C7736920053ACCF /* ShouVideoResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShouVideoResultViewController.swift; sourceTree = "<group>"; };
+		121E70862C77376B0053ACCF /* CommonFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunc.swift; sourceTree = "<group>"; };
+		79F388ACFBDA7DAD2E33FDFC /* Pods-CapturePV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapturePV.release.xcconfig"; path = "Target Support Files/Pods-CapturePV/Pods-CapturePV.release.xcconfig"; sourceTree = "<group>"; };
+		D314875949222BEA5F8D39DC /* Pods_CapturePV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapturePV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99EBF29ECEBC1F98DFDC591 /* Pods-CapturePV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapturePV.debug.xcconfig"; path = "Target Support Files/Pods-CapturePV/Pods-CapturePV.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC8F77067A704C10CC346A4 /* Pods_CapturePV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				121E70562C76CBAF0053ACCF /* CapturePV */,
 				121E70552C76CBAF0053ACCF /* Products */,
+				8B75EB5C31B0195407D9B5DB /* Pods */,
+				DC40C14350F1603703479EA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +83,8 @@
 		121E70562C76CBAF0053ACCF /* CapturePV */ = {
 			isa = PBXGroup;
 			children = (
+				121E706E2C76CDA50053ACCF /* Class */,
 				121E70572C76CBAF0053ACCF /* AppDelegate.swift */,
-				121E70592C76CBAF0053ACCF /* SceneDelegate.swift */,
 				121E705B2C76CBAF0053ACCF /* ViewController.swift */,
 				121E705D2C76CBAF0053ACCF /* Main.storyboard */,
 				121E70602C76CBB20053ACCF /* Assets.xcassets */,
@@ -67,6 +94,65 @@
 			path = CapturePV;
 			sourceTree = "<group>";
 		};
+		121E706E2C76CDA50053ACCF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				121E70742C76CFD10053ACCF /* Common */,
+				121E70732C76CFC30053ACCF /* View */,
+				121E70722C76CFAF0053ACCF /* Extension */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		121E70722C76CFAF0053ACCF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				121E70802C7718C60053ACCF /* String+Extension.swift */,
+				121E70792C76D00B0053ACCF /* UIColor+Extension.swift */,
+				121E70772C76CFF70053ACCF /* Value+Extension.swift */,
+				121E706F2C76CDB80053ACCF /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		121E70732C76CFC30053ACCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				121E706C2C76CD520053ACCF /* CapturePVView.swift */,
+				121E707E2C7715C40053ACCF /* IVResultTipView.swift */,
+				121E70822C772F050053ACCF /* ShouImageResultViewController.swift */,
+				121E70842C7736920053ACCF /* ShouVideoResultViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		121E70742C76CFD10053ACCF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				121E707B2C76D3B70053ACCF /* NetStatusManager.swift */,
+				121E70752C76CFE30053ACCF /* Common.swift */,
+				121E70862C77376B0053ACCF /* CommonFunc.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8B75EB5C31B0195407D9B5DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D99EBF29ECEBC1F98DFDC591 /* Pods-CapturePV.debug.xcconfig */,
+				79F388ACFBDA7DAD2E33FDFC /* Pods-CapturePV.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC40C14350F1603703479EA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D314875949222BEA5F8D39DC /* Pods_CapturePV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 121E70682C76CBB20053ACCF /* Build configuration list for PBXNativeTarget "CapturePV" */;
 			buildPhases = (
+				5EAA0AC7A11BB9677208BF19 /* [CP] Check Pods Manifest.lock */,
 				121E70502C76CBAF0053ACCF /* Sources */,
 				121E70512C76CBAF0053ACCF /* Frameworks */,
 				121E70522C76CBAF0053ACCF /* Resources */,
+				FA30EDE5E3F467C9885A255C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +221,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EAA0AC7A11BB9677208BF19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CapturePV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA30EDE5E3F467C9885A255C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapturePV/Pods-CapturePV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapturePV/Pods-CapturePV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CapturePV/Pods-CapturePV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		121E70502C76CBAF0053ACCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121E707A2C76D00B0053ACCF /* UIColor+Extension.swift in Sources */,
+				121E70872C77376B0053ACCF /* CommonFunc.swift in Sources */,
 				121E705C2C76CBAF0053ACCF /* ViewController.swift in Sources */,
+				121E70852C7736920053ACCF /* ShouVideoResultViewController.swift in Sources */,
+				121E706D2C76CD520053ACCF /* CapturePVView.swift in Sources */,
+				121E707F2C7715C40053ACCF /* IVResultTipView.swift in Sources */,
+				121E70702C76CDB80053ACCF /* UIView+Extension.swift in Sources */,
+				121E70762C76CFE30053ACCF /* Common.swift in Sources */,
 				121E70582C76CBAF0053ACCF /* AppDelegate.swift in Sources */,
-				121E705A2C76CBAF0053ACCF /* SceneDelegate.swift in Sources */,
+				121E70832C772F050053ACCF /* ShouImageResultViewController.swift in Sources */,
+				121E70782C76CFF70053ACCF /* Value+Extension.swift in Sources */,
+				121E70812C7718C60053ACCF /* String+Extension.swift in Sources */,
+				121E707C2C76D3B70053ACCF /* NetStatusManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +427,16 @@
 		};
 		121E70692C76CBB20053ACCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99EBF29ECEBC1F98DFDC591 /* Pods-CapturePV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4D62BC7QXG;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L637U6Z5RP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CapturePV/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,13 +444,16 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ldyt.tvremote.free.universal.control.CapturePV;
+				PRODUCT_BUNDLE_IDENTIFIER = online.ldyt.firetvremote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = FireTV_Development;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,12 +462,16 @@
 		};
 		121E706A2C76CBB20053ACCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F388ACFBDA7DAD2E33FDFC /* Pods-CapturePV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4D62BC7QXG;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L637U6Z5RP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CapturePV/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,13 +479,16 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ldyt.tvremote.free.universal.control.CapturePV;
+				PRODUCT_BUNDLE_IDENTIFIER = online.ldyt.firetvremote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = FireTV_Development;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
